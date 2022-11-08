@@ -28,6 +28,9 @@ namespace TestWebAPI.Controllers
     {
       //Changes from weatherFeature3
       var rng = new Random();
+      int a = 10;
+      int b = 8;
+      int sum = a + b;
       return Enumerable.Range(1, 5).Select(index => new WeatherForecast
       {
         Date = DateTime.Now.AddDays(index),
