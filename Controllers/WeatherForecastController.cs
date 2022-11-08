@@ -28,6 +28,9 @@ namespace TestWebAPI.Controllers
     {
       //Commenty from weatherFeature4
       var rng = new Random();
+      int x = 9;
+      int y = 4;
+      int product = x * y;
       return Enumerable.Range(1, 5).Select(index => new WeatherForecast
       {
         Date = DateTime.Now.AddDays(index),
