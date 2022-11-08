@@ -13,7 +13,7 @@ namespace TestWebAPI.Controllers
   {
     private static readonly string[] Summaries = new[]
     {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Heatwave","feature7","feature5", "Feature2", "feature1"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Heatwave","feature6","feature7","feature5", "Feature2", "feature1"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
