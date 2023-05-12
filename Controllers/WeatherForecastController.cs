@@ -15,7 +15,7 @@ namespace TestWebAPI.Controllers
     {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Heatwave","feature5", "Feature2", "feature1"
     };
-
+    //Worked on feture 6
     private readonly ILogger<WeatherForecastController> _logger;
 
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
